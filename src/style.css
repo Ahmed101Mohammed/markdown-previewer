@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #00a5d5;
+  background: linear-gradient(97deg, #00a5d5 32%, #e7f16b 77%);
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 49% 49%;
+      grid-template-columns: 49% 49%;
+  -webkit-column-gap: 2%;
+          column-gap: 2%;
+  height: 93vh;
+  width: 94%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .editor label {
+  width: 100%;
+  background: #ff9d00;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'grInter';
+  text-align: center;
+  border-bottom: 2px white solid;
+  display: block;
+}
+
+.container .editor textarea {
+  padding: 20px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  width: 100%;
+  height: calc(100% - 38px);
+  background-color: #d5d5d5;
+  color: deeppink;
+}
+
+.container .view .title {
+  width: 100%;
+  background: #ff9d00;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'grInter';
+  text-align: center;
+  border-bottom: 2px white solid;
+}
+
+.container .view #c {
+  background: #5e48c4;
+  padding: 20px;
+  height: 830px;
+  white-space: break-spaces;
+  overflow: auto;
+  color: white;
+}
+
+.container .view #c blockquote {
+  background-color: #072a7457;
+  padding: 10px;
+  border-left: 5px #072a74 solid;
+}
+
+.container .view #c p {
+  font-size: 20px;
+}
+
+.container .view #c li {
+  font-size: 18px;
+}
+
+.container .view #c ul, .container .view #c ol, .container .view #c dl {
+  list-style-position: inside;
+}
+
+.container .view #c h1 {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
